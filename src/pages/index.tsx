@@ -23,7 +23,7 @@ function HomepageHeader() {
             <Link
                 className={`button button--secondary button--lg ${styles.button}`}
                 to="/docs/getting-started">
-              Getting Started
+              Get Started
             </Link>
           </div>
         </div>
