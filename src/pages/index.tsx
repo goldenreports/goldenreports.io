@@ -32,11 +32,10 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
+  // const { siteConfig } = useDocusaurusContext();
   return (
       <Layout
-          title={`${siteConfig.title} - Reports made simple`}
-          description={`${siteConfig.tagline}`}>
+          description="Modern open source reporting tool">
         <HomepageHeader/>
         <main>
           <HomepageFeatures/>

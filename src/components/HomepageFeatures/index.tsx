@@ -9,36 +9,94 @@ type FeatureItem = {
 };
 
 const FeatureList: FeatureItem[] = [
-  // {
-  //   title: 'Easy to Use',
-  //   Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-  //   description: (
-  //     <>
-  //       Golden Reports was designed from the ground up to be easily installed and
-  //       used to get your reports up and running quickly.
-  //     </>
-  //   ),
-  // },
-  // {
-  //   title: 'Focus on What Matters',
-  //   Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-  //   description: (
-  //     <>
-  //       Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-  //       ahead and move your docs into the <code>docs</code> directory.
-  //     </>
-  //   ),
-  // },
-  // {
-  //   title: 'Powered by Dotnet, gRPC and Angular',
-  //   Svg: require('@site/static/img/graphql.svg').default,
-  //   description: (
-  //     <>
-  //       Extend or customize your website layout by reusing React. Docusaurus can
-  //       be extended while reusing the same header and footer.
-  //     </>
-  //   ),
-  // },
+  {
+    title: 'Open Source',
+    Svg: require('@site/static/img/oss.svg').default,
+    description: (
+      <>
+        Golden Reports is <strong>free and open source</strong> under <a href="https://github.com/goldenreports/golden-reports/blob/main/LICENSE">Apache 2.0 license</a>.
+      </>
+    ),
+  },
+  {
+    title: 'Modern',
+    Svg: require('@site/static/img/atom.svg').default,
+    description: (
+      <>
+        Built using the <strong>latest technologies</strong> and patterns:<br/>
+        Angular, custom Elements, graphql and dotnet.
+      </>
+    ),
+  },
+  {
+    title: 'Easy to learn and use',
+    Svg: require('@site/static/img/cake.svg').default,
+    description: (
+      <>
+        Golden Reports was designed from the ground up to be <strong>easily installed and
+        used</strong> to get your reports up and running quickly.
+      </>
+    ),
+  },
+  {
+    title: 'Docker ready',
+    Svg: require('@site/static/img/docker.svg').default,
+    description: (
+        <>
+          We love Docker! <br/>
+          That's why we have <strong>docker images ready for you</strong>.<br/>
+          <strong>Helm charts</strong> too!
+        </>
+    ),
+  },
+  {
+    title: 'Only standards',
+    Svg: require('@site/static/img/html.svg').default,
+    description: (
+        <>
+          We rely strictly on <strong>standard technologies</strong>.<br/>
+          No custom implementations or frameworks to learn.<br/>
+          You know HTML, CSS and GraphQL? You are good to go!
+        </>
+    ),
+  },
+  {
+    title: 'Fast',
+    Svg: require('@site/static/img/fast.svg').default,
+    description: (
+        <>
+          <strong>Fast and powerful</strong> report rendering engine powered by dotnet.
+        </>
+    ),
+  },
+  {
+    title: 'GraphQL',
+    Svg: require('@site/static/img/graphql.svg').default,
+    description: (
+        <>
+          GraphQL as the query engine <strong>makes data domain creation a breeze</strong>.
+        </>
+    ),
+  },
+  {
+    title: 'Embeddable',
+    Svg: require('@site/static/img/wc.svg').default,
+    description: (
+        <>
+          <strong>Reports are build with custom elements</strong>, so you can embed them into your favorite front-end framework (or vanilla JS) very easy.<br/>
+          The report's designer too!
+        </>
+    ),
+  },
+  {
+    title: 'Cross-platform Editor',
+    Svg: require('@site/static/img/design.svg').default,
+    description: (
+        <>
+          Cross-platform free and open source reports editor.
+        </>
+    ),
+  },
 ];
 
 function Feature({title, Svg, description}: FeatureItem) {

@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Golden Reports',
-  tagline: 'Modern open source reporting tool',
+  tagline: 'Reporting that just works.',
   url: 'https://goldenreports.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -119,7 +119,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Golden Reports. Built with Docusaurus.`,
+        copyright: `Released under the Apache 2.0 license.<br/> Copyright © ${new Date().getFullYear()} Mariano Santoro & Golden Reports Constributors.`,
       },
       prism: {
         theme: lightCodeTheme,
