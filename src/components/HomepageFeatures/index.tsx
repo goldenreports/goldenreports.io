@@ -10,7 +10,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Open Source',
+    title: 'Open source',
     Svg: require('@site/static/img/oss.svg').default,
     description: (
       <>
@@ -33,8 +33,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/cake.svg').default,
     description: (
       <>
-        Golden Reports was designed from the ground up to be <strong>easily installed and
-        used</strong> to get your reports up and running quickly.
+        Golden Reports was designed from the ground up to be <strong>easily</strong> installed and
+        used to get your reports up and running quickly.
       </>
     ),
   },
@@ -44,7 +44,7 @@ const FeatureList: FeatureItem[] = [
     description: (
         <>
           We love Docker! <br/>
-          That's why we have <strong>docker images ready for you</strong>.<br/>
+          That's why we have <strong>docker images</strong> ready for you.<br/>
           <strong>Helm charts</strong> too!
         </>
     ),
@@ -83,17 +83,17 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/wc.svg').default,
     description: (
         <>
-          <strong>Reports are build with custom elements</strong>, so you can embed them into your favorite front-end framework (or vanilla JS) very easy.<br/>
+          Reports are <strong>built with custom elements</strong>. You can embed them into your favorite front-end framework (or vanilla JS) very easy.<br/>
           The report's designer too!
         </>
     ),
   },
   {
-    title: 'Cross-platform Editor',
+    title: 'Cross platform editor',
     Svg: require('@site/static/img/design.svg').default,
     description: (
         <>
-          Cross-platform free and open source reports editor.
+          Edit your reports <strong>offline</strong> using our free cross platform editor.
         </>
     ),
   },
