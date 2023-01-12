@@ -6,7 +6,7 @@ sidebar_position: 1
 
 This documentation is under construction :construction:.
 
-Stay around to keep updated. We are working very hard to release an initial version of **Golden Reports** pretty soon.
+Stay around to keep updated. We are working really hard to release an initial version of **Golden Reports** very soon.
 
 Thanks for your patience,
 Mariano.
