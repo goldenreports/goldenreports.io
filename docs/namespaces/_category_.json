@@ -1,0 +1,8 @@
+{
+  "label": "Namespaces",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Abstraction used to group related units (data sources, data contexts, reports) together and keep hierarchical order."
+  }
+}

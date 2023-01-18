@@ -14,17 +14,12 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'goldenreports', // Usually your GitHub org/user name.
-  projectName: 'golden-reports', // Usually your repo name.
-
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'es'],
   },
 
   presets: [
@@ -35,7 +30,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/goldenreports/goldenreports.io/blob/main/',
+              'https://github.com/goldenreports/goldenreports.io/blob/main/',
         },
         blog: false,
         // blog: {
@@ -53,79 +48,85 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: 'Golden Reports',
-        logo: {
-          alt: 'Golden Reports Logo',
-          src: 'img/logo.svg',
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+      ({
+        metadata: [
+          {
+            name: 'keywords',
+            content: 'report, reporting, label, print, open source, graphql, dotnet, free, angular, custom elements, react, vue'
+          }
+        ],
+        navbar: {
+          title: 'Golden Reports',
+          logo: {
+            alt: 'Golden Reports Logo',
+            src: 'img/logo.svg',
+          },
+          items: [
+            {
+              type: 'doc',
+              docId: 'getting-started',
+              position: 'left',
+              label: 'Docs',
+            },
+            // {to: '/blog', label: 'Blog', position: 'left'},
+            {
+              href: 'https://github.com/goldenreports',
+              label: 'GitHub',
+              position: 'right',
+            },
+          ],
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'getting-started',
-            position: 'left',
-            label: 'Docs',
-          },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/goldenreports',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Getting Started',
-                to: '/docs/getting-started',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/goldenreports',
-              },
-              // {
-              //   label: 'Discord',
-              //   href: 'https://discordapp.com/invite/docusaurus',
-              // },
-              // {
-              //   label: 'Twitter',
-              //   href: 'https://twitter.com/docusaurus',
-              // },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/goldenreports',
-              },
-            ],
-          },
-        ],
-        copyright: `Released under the Apache 2.0 license.<br/> Copyright © ${new Date().getFullYear()} Mariano Santoro & Golden Reports Constributors.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
+        footer: {
+          style: 'dark',
+          links: [
+            {
+              title: 'Docs',
+              items: [
+                {
+                  label: 'Getting Started',
+                  to: '/docs/getting-started',
+                },
+              ],
+            },
+            {
+              title: 'Community',
+              items: [
+                {
+                  label: 'Stack Overflow',
+                  href: 'https://stackoverflow.com/questions/tagged/goldenreports',
+                },
+                // {
+                //   label: 'Discord',
+                //   href: 'https://discordapp.com/invite/docusaurus',
+                // },
+                // {
+                //   label: 'Twitter',
+                //   href: 'https://twitter.com/docusaurus',
+                // },
+              ],
+            },
+            {
+              title: 'More',
+              items: [
+                // {
+                //   label: 'Blog',
+                //   to: '/blog',
+                // },
+                {
+                  label: 'GitHub',
+                  href: 'https://github.com/goldenreports',
+                },
+              ],
+            },
+          ],
+          copyright: `Released under the Apache 2.0 license.<br/> Copyright © ${new Date().getFullYear()} Mariano Santoro & Golden Reports Constributors.`,
+        },
+        prism: {
+          theme: lightCodeTheme,
+          darkTheme: darkCodeTheme,
+        },
+      }),
 };
 
 module.exports = config;

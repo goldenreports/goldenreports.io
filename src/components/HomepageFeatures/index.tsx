@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Built using the <strong>latest technologies</strong> and patterns:<br/>
-        Angular, custom Elements, graphql and dotnet.
+        Angular, custom elements, graphql and dotnet.
       </>
     ),
   },

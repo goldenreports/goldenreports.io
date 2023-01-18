@@ -18,7 +18,7 @@ function HomepageHeader() {
             <Link
                 className={`button button--secondary button--lg ${styles.button}`}
                 to="https://demo.goldenreports.io">
-              Demo
+              Live Example
             </Link>
             <Link
                 className={`button button--secondary button--lg ${styles.button}`}
