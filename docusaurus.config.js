@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Golden Reports',
-  tagline: 'Reporting that just works.',
+  tagline: 'Retrieve what you need.',
   url: 'https://goldenreports.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
