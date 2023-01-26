@@ -6,8 +6,8 @@ sidebar_position: 1
 
 ## Introduction
 
-Data contexts are an abstraction to represent a connection to a source
-of information. We currently support the following data sources:
+Data sources are an abstraction that represents a connection to a source
+of information. We currently support the following sources:
 
 * PostgreSQL
 * Microsoft SQL Server

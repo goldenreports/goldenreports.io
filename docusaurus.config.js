@@ -50,12 +50,7 @@ const config = {
   themeConfig:
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
-        metadata: [
-          {
-            name: 'keywords',
-            content: 'report, reporting, label, print, open source, graphql, dotnet, free, angular, custom elements, react, vue'
-          }
-        ],
+        image: "img/logo.png",
         navbar: {
           title: 'Golden Reports',
           logo: {
